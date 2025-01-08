@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Product Launch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero animate__animated animate__fadeIn">
+        <h1>Welcome to Our Product</h1>
+        <p>Your journey to better experiences starts here.</p>
+        <button class="btn-primary">Get Started</button>
+    </section>
+
+    <section class="features">
+        <h2 class="animate__animated animate__fadeInUp">Key Features</h2>
+        <div class="feature animate__animated animate__fadeInUp">
+            <img src="images/AI.jpg" alt="Feature 1">
+            <h3>AI-Powered Task Manager</h3>
+        </div>
+        <div class="feature animate__animated animate__fadeInUp">
+            <img src="images/code.jpg" alt="Feature 2">
+            <h3>Intelligent Code Assistance</h3>
+        </div>
+        <div class="feature animate__animated animate__fadeInUp">
+            <img src="images/universe.jpg" alt="Feature 3">
+            <h3>Universal Collaboration Hub</h3>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="animate__animated animate__fadeInUp">What Our Customers Say</h2>
+        <div class="testimonial-slider animate__animated animate__fadeInUp">
+            <div class="testimonial">
+                <img src="images/customer1.jpg" alt="Customer 1">
+                <p>"Amazing product!" - Customer 1</p>
+            </div>
+            <div class="testimonial">
+                <img src="images/customer2.jpg" alt="Customer 2">
+                <p>"Changed my life!" - Customer 2</p>
+            </div>
+            <div class="testimonial">
+                <img src="images/customer3.jpg" alt="Customer 3">
+                <p>"Highly recommend!" - Customer 3</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2 class="animate__animated animate__fadeInUp">Subscribe to Our Newsletter</h2>
+        <form id="newsletterForm" class="animate__animated animate__fadeInUp">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <button id="backToTop">Back to Top</button>
+        <div class="theme-toggle">
+            <label>
+                <input type="checkbox" id="themeToggle">
+                <span>Dark Mode</span>
+            </label>
+        </div>
+    </footer>
+
+    <div id="loading-spinner" class="loading-spinner"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
