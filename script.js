@@ -64,16 +64,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Form validation functions
+    //Form validation functions
     function validateEmail(email) {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+       const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(String(email).toLowerCase());
-    }
+  }
 
     function validatePhone(phone) {
         const re = /^[0-9]{10}$/;
-        return re.test(String(phone));
+       return re.test(String(phone));
     }
+
+
 
     // Loading Spinner
     window.addEventListener('load', () => {
@@ -96,3 +98,4 @@ faqQuestions.forEach(question => {
         question.classList.toggle('active');
     });
 });
+
